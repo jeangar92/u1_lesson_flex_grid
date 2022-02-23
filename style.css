@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 50px 1fr 30px;
+    grid-gap: 5px;
+    height: 100vh;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+
+}
+
+nav,
+footer {
+  grid-column: span 2;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    background-color: #F03F3C;
+    
+}
+
+section {
+    display: flex;
+}
+
+div {
+    font-size: 20px;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+
+}
+
+
+main {
+    background-color: skyblue;
+}
+
+
+footer{
+    background-color:green
+}
+.flex-ctr {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
